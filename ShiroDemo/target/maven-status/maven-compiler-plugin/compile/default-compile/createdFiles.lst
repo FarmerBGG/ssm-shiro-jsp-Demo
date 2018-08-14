@@ -1,0 +1,16 @@
+com\shiro\realm\MyRealm.class
+com\shiro\pojo\RolePermission.class
+com\shiro\pojo\UserRole.class
+com\shiro\controller\LoginController.class
+com\shiro\pojo\User.class
+com\shiro\pojo\Role.class
+com\shiro\pojo\Wareinfo.class
+com\shiro\service\UserService.class
+com\shiro\mapper\WareinfoMapper.class
+com\shiro\service\UserServiceImpl.class
+com\shiro\service\WareInfoService.class
+com\shiro\pojo\Permission.class
+com\shiro\service\WareInfoServiceImpl.class
+com\shiro\controller\WareController.class
+com\shiro\pojo\ActiveUser.class
+com\shiro\mapper\UserMapper.class

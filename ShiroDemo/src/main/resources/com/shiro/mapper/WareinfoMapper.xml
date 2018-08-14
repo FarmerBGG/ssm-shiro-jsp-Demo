@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shiro.mapper.WareinfoMapper" >
+  <resultMap id="BaseResultMap" type="wareinfo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="warename" property="warename" jdbcType="VARCHAR" />
+    <result column="price" property="price" jdbcType="DECIMAL" />
+  </resultMap>
+  
+  <sql id="Base_Column_List" >
+    id, warename, price
+  </sql>
+  <select id="getAllWares" resultMap="BaseResultMap" parameterType="wareinfo" >
+    select
+    <include refid="Base_Column_List" />
+    from wareinfo
+  </select>
+  
+  <delete id="delWareById" parameterType="int" >
+    delete from wareinfo
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  
+  <insert id="addWare" parameterType="wareinfo" >
+    insert into wareinfo
+    values (default, #{warename,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL}
+      )
+  </insert>
+  
+</mapper>
