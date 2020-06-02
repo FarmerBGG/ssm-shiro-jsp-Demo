@@ -168,4 +168,4 @@ CREATE TABLE `wareinfo` (
 -- ----------------------------
 INSERT INTO `wareinfo` VALUES ('14', 'jume', '2.00');
 INSERT INTO `wareinfo` VALUES ('20', '李闯版葫芦娃', '2.00');
-INSERT INTO `wareinfo` VALUES ('21', '李闯版充气娃娃', '20.00');
+INSERT INTO `wareinfo` VALUES ('21', '三娃娃', '20.00');
