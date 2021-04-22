@@ -42,7 +42,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-spring</artifactId>
-			<version>1.2.3</version>
+			<version>1.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.shiro</groupId>
